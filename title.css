@@ -1,0 +1,379 @@
+/* The Heading */
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  color: rgb(195, 44, 190);
+  text-align: center;
+  background-color: antiquewhite;
+  margin: 0;
+}
+
+/* Not a Troll Pick */
+.subtitle1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  color: black;
+  text-align: center;
+  background-color: antiquewhite;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+
+/* asheApproveEmote */
+.asheapprove1 {
+  height: 3rem;
+  vertical-align: middle;
+  margin-bottom: 0.4em;
+  margin-right: 0.4em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Ashe button */
+.image-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  height: auto;
+}
+
+/* AsheAniamtion */
+.asheapprove1:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-10deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(10deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(10deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-10deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-10deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(10deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-10deg);
+  }
+}
+
+/* Why caitlyn */
+.centerdiv1 {
+  text-align: center;
+}
+
+.whyCait {
+  font-family: "Inter", sans-serif;
+  vertical-align: middle;
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #222222;
+  text-align: center;
+  border-bottom: 2px solid aliceblue;
+  max-width: 800px;
+  display: inline-block;
+  border-left: 20px solid aliceblue;
+  border-right: 20px solid aliceblue;
+  margin-bottom: 0;
+}
+
+/* The regular text */
+p {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin-top: 10;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+
+  border-radius: 12px;
+
+  height: auto;
+  background-color: aliceblue;
+}
+
+/* opgg image */
+.opggwin {
+  border-radius: 12px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* cait nani */
+.caitnani {
+  border-radius: 12px;
+  width: 200px;
+  height: auto;
+  image-rendering: auto; /* default, but OK for most images */
+  image-rendering: crisp-edges; /* good for pixel art or emojis */
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.caitnani:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+/* container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* The Body */
+body {
+  background-color: antiquewhite;
+}
+
+/* Centers An Image */
+.imagecenter {
+  text-align: center;
+}
+
+/* Pro And Cons Are Here */
+.prosCons {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 0 1rem;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+}
+
+.prosCons {
+  flex: 1;
+  /* flex is short for flexbox, can arrange items horizontally or vertically within a container */
+}
+
+.pros,
+.cons {
+  flex: 1;
+}
+
+.pros h3,
+.cons h3 {
+  text-align: center;
+}
+
+.pros {
+  border-radius: 12px;
+  max-width: 100%;
+  height: auto;
+  background-color: aliceblue;
+}
+
+.cons {
+  border-radius: 12px;
+  max-width: 100%;
+  height: auto;
+  background-color: aliceblue;
+}
+
+.caitProPoints {
+  list-style: none;
+  padding-left: 1em;
+  margin: 0;
+}
+
+.caitProPoints li {
+  position: relative;
+  margin-bottom: 0.5em;
+  padding-left: 2em;
+}
+
+.caitProPoints li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  background-image: url(https://cdn.discordapp.com/emojis/500409162719559690.webp?size=96);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  border-radius: 0.3em;
+  overflow: hidden;
+}
+
+.caitConPoints {
+  list-style: none;
+  padding-left: 1em;
+  margin: 0;
+}
+
+.caitConPoints li {
+  position: relative;
+  margin-bottom: 0.5em;
+  padding-left: 2em;
+}
+
+.caitConPoints li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  background-image: url(https://cdn.discordapp.com/emojis/647561980600778772.webp?size=96);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  border-radius: 0.3em;
+  overflow: hidden;
+}
+
+/* The build and the runes (boring stuff) */
+.subtitle2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 2.2rem;
+  color: black;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 0.4rem 1rem;
+  display: inline-block;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+}
+
+.hereyougo {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin-top: 10;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+
+  border-radius: 12px;
+
+  height: auto;
+  background-color: aliceblue;
+}
+
+.lolBuilds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+}
+
+.firstStrike {
+  width: 400px;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.fleetFootwork {
+  width: 400px;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+/* Situational Items */
+.situationalItems {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 2.2rem;
+  color: black;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 0.4rem 1rem;
+  display: inline-block;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+}
+
+.lolItemImage1 {
+    max-width: 150px;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    margin: 0.3rem;
+}
